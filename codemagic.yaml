@@ -1,4 +1,4 @@
-workflows:
+workflows: flutter pub
   android-apk:
     name: Build APK
     environment: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
