@@ -1,7 +1,7 @@
 workflows:
   android-apk:
     name: Build APK
-    environment:
+    environment: ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
       flutter: stable
     scripts:
       - flutter pub get
