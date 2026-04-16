@@ -2,7 +2,7 @@ name: uvc_ot_calculator
 description: UV-C OT Disinfection Calculator
 version: 1.0.0
 
-environment:
+environment:ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
